@@ -1,0 +1,99 @@
+header {
+    /* background-color: gray; */
+    color: white;
+    text-align: center;
+    background: url("shubham-dhage-kUptPYLCnbk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 5px solid white;
+    background-color: dodgerblue;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+}
+
+li a:hover {
+    background-color: dodgerblue;
+}
+
+li a.active {
+    background-color: greenyellow;
+    color: dodgerblue;
+}
+
+.main {
+    height: auto;
+    padding: 10px;
+    background: url("https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid dodgerblue;
+}
+
+div.mainc {
+    border-radius: 30px 100px;
+    margin: auto;
+    margin-top: 70px;
+    width: 50%;
+    height: auto;
+    border: 3px solid dodgerblue;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 1px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 1px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+P {
+    text-align: left;
+    padding: 4px;
+    ;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-repeat: no-repeat; */
+    background-color: #411900;
+    /* background-size: cover; */
+    padding: 2px;
+}
+
+button2 {
+    background-color: burlywood;
+    width: 12%;
+    text-align: center;
+    border: none;
+    font-size: 20PX;
+    cursor: pointer;
+    padding: 17px 28PX;
+    margin-left: 12px;
+    font-weight: 20px;
+}
+
+button1 {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    padding: 7px 8px;
+}
+
+ul {
+    border-top: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: whitesmoke;
+    display: block;
+    padding: 17px 10px;
+}
+
+h1 {
+    float: left;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 15px;
+}
+
+p {
+    font-weight: bold;
+    font-size: x-large;
+    color: antiquewhite;
+    padding: 25px;
+    margin: 23px;
+    line-height: 43px;
+}
+
+.main {
+    background: url("https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    float: left;
+    color: antiquewhite;
+    font-size: 43px;
+    padding-left: 22px;
+    padding-top: 42px;
+}
+
+h3 {
+    padding-left: 50px;
+    padding-top: 60px;
+    font-weight: bolder;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    padding-left: 50px;
+    font-weight: boi;
+    font-size: 20px;
+}
